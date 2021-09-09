@@ -1,0 +1,33 @@
+.search {
+    font-size: 100%;
+    background-color: whitesmoke;
+    color: lightseagreen;
+    justify-content: center;
+    border: 2px solid lightseagreen;
+    border-radius: 20px;
+    width: 10%;
+    margin: 1% 4%;
+}
+
+.plus {
+    display: block;
+    font-size: 120%;
+    margin: 0% 4%;
+    background-color: turquoise;
+    color: white;
+    width: 2.3%;
+    border: solid turquoise;
+    border-radius: 50%;
+}
+
+.account {
+    display: block;
+    margin: 1% 4%;
+    width: 12.5%;
+    font-size: 100%;
+    background-color: royalblue;
+    color: powderblue;
+    border: 3px solid black;
+    padding: 5px 0px;
+    box-shadow: 3px 3px black;
+}

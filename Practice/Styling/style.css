@@ -1,0 +1,27 @@
+h1 {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-weight: 700;
+    text-indent:20px;
+}
+
+h1 > span {
+    color: aqua;
+}
+
+h2 {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    font-weight: 550;
+    text-decoration: underline;
+}

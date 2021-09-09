@@ -1,0 +1,43 @@
+img {
+    height: 200px;
+    background-color: salmon;
+}
+
+h1 {
+    font-size: 275%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    opacity: 80%;
+}
+
+#main {
+    width: 800px;
+    background-image: url("images/pixelTunnel.jpg");
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top: solid;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(82, 80, 80);
+}
+
+#row1 {
+    background-color: rgb(84, 59, 226);
+
+}
+
+#row2 {
+    background-color: deepskyblue;
+    justify-content: space-evenly;
+}
+
+#row3 {
+    background-color: rgb(255, 196, 0);
+}
