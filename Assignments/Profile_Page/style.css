@@ -1,7 +1,7 @@
 /* General */
 * {
-    /* border: solid;
-    border-color: red; */
+    border: solid;
+    border-color: red;
     margin: 0px
 }
 
@@ -42,3 +42,66 @@ body {
 }
 
 /* Page Content */
+#page-content {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 150px;
+}
+
+#column-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    height: 200px;
+}
+
+#column-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    height: 200px;
+}
+
+/* User Card */
+#user-card {
+    display: flex;
+    flex-direction: column;
+    border-color: lightgrey;
+    border-radius: 5px;
+}
+
+#user-card-top {
+    background-color: lightseagreen;
+}
+
+#profile-pic {
+    width: 70px;
+    border: solid;
+    padding: 3px;
+    border-color: lightgrey;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 45px;
+    left: 25px;
+}
+
+#user-card-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+}
+
+.icon-with-text {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.icon {
+    width: auto;
+    height: 15px;
+    padding-right: 10px;
+}
