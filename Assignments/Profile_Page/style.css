@@ -65,7 +65,8 @@ body {
 #user-card {
     display: flex;
     flex-direction: column;
-    border-color: lightgrey;
+    border: solid;
+    border-color:lightgray;
     border-radius: 5px;
 }
 
@@ -81,7 +82,7 @@ body {
     border-radius: 50%;
     background-color: white;
     position: relative;
-    top: 45px;
+    top: 42px;
     left: 25px;
 }
 
@@ -89,7 +90,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    padding-top: 35px;
+    padding-top: 40px;
     padding-bottom: 0px;
 }
 
@@ -107,7 +108,10 @@ body {
 
 /* Education Card */
 #education {
-    padding-top: 20px;
+    margin-top: 20px;
+    border: solid;
+    border-color:lightgray;
+    border-radius: 5px;
 }
 
 .section-heading {
@@ -117,15 +121,22 @@ body {
 }
 
 #education-contents {
-    padding: 0px 20px;
+    padding: 10px 20px;
 }
 
 #edu-date {
     color: grey;
-    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px; 
 }
 
 /* Connection Requests */
+#connection-requests {
+    border: solid;
+    border-color:lightgray;
+    border-radius: 5px;
+}
+
 .centered-heading {
     display: flex;
     justify-content: space-evenly;
@@ -145,6 +156,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 5px;
+    padding-left: 10px;
 }
 
 .connection-pic {
@@ -156,6 +169,10 @@ body {
     background-color: white;
 }
 
+.name {
+    padding-inline: 10px;
+}
+
 .buttons {
     display: flex;
     justify-content: flex-end;
@@ -165,19 +182,26 @@ body {
 .button {
     width: auto;
     height: 30px;
+    padding-inline: 5px;
 }
 
 /* Your Connections */
 #your-connections {
-    padding-top: 20px;
+    margin-top: 20px;
+    border: solid;
+    border-color:lightgray;
+    border-radius: 5px;
 }
 
 .connection {
     display: flex;
     align-items: center;
+    padding: 5px 10px;
 }
 
 #view-more-link {
     display: flex;
-    padding: 10px 10px;
+    padding: 10px 15px;
+    border-top: solid;
+    border-color: lightgrey;
 }
