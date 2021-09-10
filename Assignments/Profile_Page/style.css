@@ -1,24 +1,44 @@
+/* General */
 * {
-    border: solid;
-    border-color: red;
+    /* border: solid;
+    border-color: red; */
+    margin: 0px
 }
 
 body {
-    width: 1000px;;
+    width: 1000px;
+    font-family: Roboto, sans-serif;
 }
 
+/* Nav-Bar */
 #nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 0px 150px;
+    background-color: black;
+    color: white;
 }
 
-#nav-options {
+.nav-options {
     display: flex;
     flex: 2;
     list-style: none;
 }
 
-#nav-options>li {
+.nav-options>li {
     margin-right: 20px;
+    color: grey;
 }
+
+#active {
+    color: white;
+}
+
+#sign-out-button {
+    background-color: lightseagreen;
+    color: white;
+    padding-right: 10px;
+}
+
+/* Page Content */
