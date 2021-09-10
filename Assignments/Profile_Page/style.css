@@ -1,7 +1,5 @@
 /* General */
 * {
-    border: solid;
-    border-color: red;
     margin: 0px
 }
 
@@ -45,7 +43,7 @@ body {
 #page-content {
     display: flex;
     flex-direction: row;
-    padding: 0px 150px;
+    padding: 20px 150px;
 }
 
 #column-1 {
@@ -108,6 +106,10 @@ body {
 }
 
 /* Education Card */
+#education {
+    padding-top: 20px;
+}
+
 .section-heading {
     background-color: black;
     color: white;
@@ -163,4 +165,19 @@ body {
 .button {
     width: auto;
     height: 30px;
+}
+
+/* Your Connections */
+#your-connections {
+    padding-top: 20px;
+}
+
+.connection {
+    display: flex;
+    align-items: center;
+}
+
+#view-more-link {
+    display: flex;
+    padding: 10px 10px;
 }
