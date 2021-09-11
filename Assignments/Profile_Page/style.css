@@ -36,7 +36,8 @@ body {
 #sign-out-button {
     background-color: lightseagreen;
     color: white;
-    padding-right: 10px;
+    border: none;
+    padding: 3px 10px;
 }
 
 /* Page Content */
