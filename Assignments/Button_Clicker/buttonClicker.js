@@ -1,5 +1,4 @@
-// TODO Change text on login to logout when clicked
-
+// Change text on login to logout when clicked
 function changeText(element) {
     if (element.innerText == "login") {
         element.innerText = "logout"
@@ -9,15 +8,12 @@ function changeText(element) {
     }
 }
 
-// TODO Remove add definition button when it is clicked
-
+// Remove add definition button when it is clicked
 function remove(element) {
     element.remove()
 }
 
-// TODO Alert "Ninja was liked" when clicking a like button
-
+// Alert "Ninja was liked" when clicking a like button
 function likeAlert() {
     alert("Ninja was liked");
-    // console.log("like button clicked")
 }
