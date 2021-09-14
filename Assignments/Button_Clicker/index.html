@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
-    <script src=""></script>
+    <script src="buttonClicker.js" defer></script>
     <title>Dojonary</title>
 </head>
 
@@ -15,7 +15,7 @@
     <div id="nav-bar">
         <h1>Dojonary</h1>
         <p id="search-bar">Search</p>
-        <button id="login-button">Login</button>
+        <button id="login-button" onclick="changeText(this)">Login</button>
     </div>
     <div id="page-content">
         <div id="column-1">
@@ -24,7 +24,7 @@
                     <h2>ninja</h2>
                     <h3 class="italics">noun</h3>
                     <p>Plural: <span class="italics">ninjas</span></p>
-                    <button class="like-button">13 likes</button>
+                    <button class="like-button" onclick="likeAlert()">13 likes</button>
                 </div>
                 <div class="definition-right">
                     <p>A practinioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
@@ -35,7 +35,7 @@
                     <h2>ninja</h2>
                     <h3 class="italics">noun</h3>
                     <p>Plural: <span class="italics">ninjas</span></p>
-                    <button class="like-button">37 likes</button>
+                    <button class="like-button" onclick="likeAlert()">37 likes</button>
                 </div>
                 <div class="definition-right">
                     <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
@@ -44,7 +44,7 @@
         </div>
         <div id="column-2">
             <h2>Dojonary is defined by YOU</h2>
-            <button id="add-definition-button">Add Definition</button>
+            <button id="add-definition-button" onclick="remove(this)">Add Definition</button>
         </div>
     </div>
 </body>
