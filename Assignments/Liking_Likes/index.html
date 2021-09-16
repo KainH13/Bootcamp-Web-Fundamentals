@@ -10,15 +10,46 @@
     <title>Liking Likes</title>
 </head>
 <body>
-    <div class="post-card">
-        <div id="post-card-top">
-            <h2>Some User</h2>
-            <div id="likes">
-                <h3> <span id="likes1">3</span> like(s)</h3>
-                <button onclick="increaseLikes()" class="like-button">Like</button>
+    <h1>Network</h1>
+    <h2 id="feed-heading">Your Feed</h2>
+    <div id="page-content">
+        <div id="user-card">
+            <img id="profile-pic" src="assets/user-circle.png" alt="user profile picture">
+            <a href="#">Add an avatar</a>
+            <h2>James Doe</h2>
+        </div>
+        <div id="posts">
+            <div class="post-card">
+                <div id="post-card-top">
+                    <h2>Neil M</h2>
+                    <div id="likes">
+                        <h3> <span id="likes1">3</span> like(s)</h3>
+                        <button onclick="increaseLikes()" class="like-button">Like</button>
+                    </div>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+            </div>
+            <div class="post-card">
+                <div id="post-card-top">
+                    <h2>Nichole K</h2>
+                    <div id="likes">
+                        <h3> <span id="likes1">3</span> like(s)</h3>
+                        <button onclick="increaseLikes()" class="like-button">Like</button>
+                    </div>
+                </div>
+                <p>Just finished my next <a href="#">comic book</a>, check it out</p>
+            </div>
+            <div class="post-card">
+                <div id="post-card-top">
+                    <h2>Jim R</h2>
+                    <div id="likes">
+                        <h3> <span id="likes1">3</span> like(s)</h3>
+                        <button onclick="increaseLikes()" class="like-button">Like</button>
+                    </div>
+                </div>
+                <p>I cant stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
             </div>
         </div>
-        <p>This is some text, it can say anything we want.</p>
     </div>
 </body>
 </html>
