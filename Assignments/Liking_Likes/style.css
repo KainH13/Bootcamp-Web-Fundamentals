@@ -60,7 +60,7 @@ h1 {
     width: 100%;
 }
 
-#post-card-top {
+.post-card-top {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -69,14 +69,14 @@ h1 {
     margin-bottom: 20px;
 }
 
-#likes {
+.likes {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex: 1;
 }
 
-#post-card-top>h2 {
+.post-card-top>h2 {
     flex: 2;
 }
 
