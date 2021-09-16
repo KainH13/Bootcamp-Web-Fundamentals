@@ -1,0 +1,209 @@
+/* General */
+* {
+    margin: 0px
+}
+
+body {
+    width: 1000px;
+    font-family: Roboto, sans-serif;
+}
+
+/* Nav-Bar */
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 150px;
+    background-color: black;
+    color: white;
+}
+
+.nav-options {
+    display: flex;
+    flex: 2;
+    list-style: none;
+}
+
+.nav-options>li {
+    margin-right: 20px;
+    color: grey;
+}
+
+#active {
+    color: white;
+}
+
+#sign-out-button {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    padding: 3px 10px;
+}
+
+/* Page Content */
+#page-content {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 150px;
+}
+
+#column-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    height: 200px;
+    margin-right: 20px;
+}
+
+#column-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    height: 200px;
+}
+
+/* User Card */
+#user-card {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color:lightgray;
+    border-radius: 5px;
+}
+
+#user-card-top {
+    background-color: lightseagreen;
+}
+
+#profile-pic {
+    width: 70px;
+    border: solid;
+    padding: 3px;
+    border-color: lightgrey;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 42px;
+    left: 25px;
+}
+
+#user-card-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.icon-with-text {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.icon {
+    width: auto;
+    height: 20px;
+    padding-right: 10px;
+}
+
+/* Education Card */
+#education {
+    margin-top: 20px;
+    border: solid;
+    border-color:lightgray;
+    border-radius: 5px;
+}
+
+.section-heading {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+#education-contents {
+    padding: 10px 20px;
+}
+
+#edu-date {
+    color: grey;
+    padding-top: 5px;
+    padding-bottom: 10px; 
+}
+
+/* Connection Requests */
+#connection-requests {
+    border: solid;
+    border-color:lightgray;
+    border-radius: 5px;
+}
+
+.centered-heading {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.notification-number {
+    background-color: lightgrey;
+    color: black;
+    border: solid;
+    border-color: lightgrey;
+    padding: 0px 5px;
+    border-radius: 50%;
+}
+
+.connection-request {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.connection-pic {
+    width: 40px;
+    border: solid;
+    padding: 3px;
+    border-color: lightgrey;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.name {
+    padding-inline: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+    cursor: pointer;
+}
+
+.button {
+    width: auto;
+    height: 30px;
+    padding-inline: 5px;
+}
+
+/* Your Connections */
+#your-connections {
+    margin-top: 20px;
+    border: solid;
+    border-color:lightgray;
+    border-radius: 5px;
+}
+
+.connection {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+#view-more-link {
+    display: flex;
+    padding: 10px 15px;
+    border-top: solid;
+    border-color: lightgrey;
+}
