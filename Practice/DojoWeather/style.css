@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    width: 1000px;
+}
+
+/* nav bar */
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: cornflowerblue;
+}
+
+#nav-bar>h1 {
+    flex: 1;
+    color: white;
+}
+
+#cities {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    cursor: pointer;
+}
+
+/* location heading */
+#location {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+#temp-selector {
+    display: flex;
+    align-items: center;
+}
+
+#temp-selector>p {
+    margin-right: 10px;
+}
+
+hr {
+    margin: 0px 100px;
+}
+
+/* forecast */
+#forecast {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    margin-top: 10px;
+}
+
+.daily-forecast {
+    height: 300px;
+    width: 185px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 10px 0px;
+}
+
+.weather-graphic {
+    border-radius: 50%;
+    width: 75%;
+}
+
+.temp-forecast {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.high-temp {
+    color: crimson;
+}
+
+.low-temp {
+    color: dodgerblue;
+}
+
+/* cookie */
+#cookie {
+    position: fixed;
+    left: 100px;
+    display: flex;
+    width: 770px;
+    padding: 10px 15px;
+    padding-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px black;
+    background-color: lightgray;
+}
+
+#cookie>img {
+    width: 7.5%;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+#cookie>button {
+    background-color: dodgerblue;
+    width: 110px;
+    padding: 5px;
+    border: solid 2px black;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
