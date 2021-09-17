@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <div id="nav-bar">
+        <h1>DojoWeather</h1>
+        <div id="cities">
+            <h3>Burbank</h2>
+            <h3>Chicago</h2>
+            <h3>Dallas</h2>
+        </div>
+    </div>
+    <div id="location">
+        <h2>San Jose</h2>
+        <div id="temp-selector">
+            <p>Show temperature in</p>
+            <select name="Temperature unit of measure" id="temp-unit">
+                <option value="Celcius">°C</option>
+                <option value="Fahrenheit">°F</option>
+            </select>
+        </div>
+    </div>
+    <div id="forecast">
+        <div class="daily-forecast">
+            <h3>Today</h3>
+            <img src="assets/some_rain.png" alt="cloud with rain graphic">
+            <p>some rain</p>
+            <div class="temp-forecast">
+                <h3 class="high-temp">24°</h3>
+                <h3 class="low-temp">18°</h3>
+            </div>
+        </div>
+        <div class="daily-forecast">
+            <h3>Today</h3>
+            <img src="assets/some_sun.png" alt="sun graphic">
+            <p>some rain</p>
+            <div class="temp-forecast">
+                <h3 class="high-temp">27°</h3>
+                <h3 class="low-temp">19°</h3>
+            </div>
+        </div>
+        <div class="daily-forecast">
+            <h3>Today</h3>
+            <img src="assets/some_clouds.png" alt="cloud graphic">
+            <p>some rain</p>
+            <div class="temp-forecast">
+                <h3 class="high-temp">21°</h3>
+                <h3 class="low-temp">16°</h3>
+            </div>
+        </div>
+        <div class="daily-forecast">
+            <h3>Today</h3>
+            <img src="assets/some_sun.png" alt="sun graphic">
+            <p>some rain</p>
+            <div class="temp-forecast">
+                <h3 class="high-temp">26°</h3>
+                <h3 class="low-temp">21°</h3>
+            </div>
+        </div>
+    </div>
+    <div id="cookie">
+        <img src="assets/cookie.png" alt="cookie with a bite out of it graphic">
+        <div id="cookie-message">
+            <h3>Stop! Cookie time!</h3>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse out traffic. <a href="#">Read more...</a></p>
+        </div>
+        <button>I accept</button>
+    </div>
+</body>
+</html>
