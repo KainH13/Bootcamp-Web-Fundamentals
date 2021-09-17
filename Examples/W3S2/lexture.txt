@@ -1,0 +1,22 @@
+Office Hour
+- Look at people populating to page
+- Look at Chuck Norris
+    - Brief explanation of API
+    - Show built site example
+    - Create button to generate joke
+    - Use loops to generate a number of jokes
+
+Lecture
+- House keeping
+    - Calendar, assignments, reading, discussions
+    - Reminder: use lego concept to organize code
+    - Exam
+- Loops
+    - for loops
+    - while loops
+- Conditions
+    - if/else
+    - continue
+- Look at people
+    - explanation
+    - let class add functionality

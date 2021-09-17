@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    width: fit-content;
+    border: 1px solid green;
+    text-align: center;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+form h3 {
+    margin: 0 auto;
+    margin-top: -17px;
+    background-color: white;
+    border: 1px solid green;
+    width: fit-content;
+}
+
+label {
+    display: block;
+    margin: 5px;
+}
+
+#people {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.person {
+    border: 1px solid green;
+    padding: 5px;
+    margin: 10px;
+    width: 120px;
+}
