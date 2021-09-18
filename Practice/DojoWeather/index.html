@@ -13,16 +13,16 @@
     <div id="nav-bar">
         <h1>DojoWeather</h1>
         <div id="cities">
-            <h3>Burbank</h2>
-            <h3>Chicago</h2>
-            <h3>Dallas</h2>
+            <h3 onclick="loadReport(this)">Burbank</h2>
+            <h3 onclick="loadReport(this)">Chicago</h2>
+            <h3 onclick="loadReport(this)">Dallas</h2>
         </div>
     </div>
     <div id="location">
         <h2>San Jose</h2>
         <div id="temp-selector">
             <p>Show temperature in</p>
-            <select name="Temperature unit of measure" id="temp-unit">
+            <select onchange="convertTemp(this)" name="Temperature unit of measure" id="temp-unit">
                 <option value="Celcius">°C</option>
                 <option value="Fahrenheit">°F</option>
             </select>
@@ -35,8 +35,8 @@
             <img class="weather-graphic" src="assets/some_rain.png" alt="cloud with rain graphic">
             <p>some rain</p>
             <div class="temp-forecast">
-                <h3 class="high-temp">24°</h3>
-                <h3 class="low-temp">18°</h3>
+                <h3 class="high-temp temp">24°</h3>
+                <h3 class="low-temp temp">18°</h3>
             </div>
         </div>
         <div class="daily-forecast">
@@ -44,8 +44,8 @@
             <img class="weather-graphic" src="assets/some_sun.png" alt="sun graphic">
             <p>some rain</p>
             <div class="temp-forecast">
-                <h3 class="high-temp">27°</h3>
-                <h3 class="low-temp">19°</h3>
+                <h3 class="high-temp temp">27°</h3>
+                <h3 class="low-temp temp">19°</h3>
             </div>
         </div>
         <div class="daily-forecast">
@@ -53,8 +53,8 @@
             <img class="weather-graphic" src="assets/some_clouds.png" alt="cloud graphic">
             <p>some rain</p>
             <div class="temp-forecast">
-                <h3 class="high-temp">21°</h3>
-                <h3 class="low-temp">16°</h3>
+                <h3 class="high-temp temp">21°</h3>
+                <h3 class="low-temp temp">16°</h3>
             </div>
         </div>
         <div class="daily-forecast">
@@ -62,8 +62,8 @@
             <img class="weather-graphic" src="assets/some_sun.png" alt="sun graphic">
             <p>some rain</p>
             <div class="temp-forecast">
-                <h3 class="high-temp">26°</h3>
-                <h3 class="low-temp">21°</h3>
+                <h3 class="high-temp temp">26°</h3>
+                <h3 class="low-temp temp">21°</h3>
             </div>
         </div>
     </div>
@@ -73,7 +73,7 @@
             <h3>Stop! Cookie time!</h3>
             <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse out traffic. <a href="#">Read more...</a></p>
         </div>
-        <button>I Accept</button>
+        <button onclick="hideCookie()">I Accept</button>
     </div>
 </body>
 </html>
