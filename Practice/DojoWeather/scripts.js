@@ -17,7 +17,6 @@ function convertTemp(element) {
 
     for (let i = 0; i < tempArray.length; i++) {
         let tempElement = tempArray[i]
-        console.log(tempElement)
         let temp = tempElement.innerText.slice(0, -1)
         console.log(temp)
 
